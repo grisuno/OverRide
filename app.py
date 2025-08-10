@@ -10,3 +10,5 @@ Licencia: GPL v3
 
 Descripción:  
 """
+print( " Usage: injector.exe <payload.exe> [target.exe]
+ " )
