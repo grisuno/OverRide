@@ -5,6 +5,13 @@
 This project provides a proof-of-concept implementation of the "Process Overwriting" (a form of Process Hollowing) technique in plain C. The injector launches a legitimate target process in a suspended state and then overwrites its main executable module in memory with a custom payload. The main thread's context is then updated to point to the payload's entry point, and the process is resumed.
 
 This method allows the payload to run under the guise of a legitimate process, providing a layer of stealth.
+- Tested on Windows [Version 10.0.20348.3807]
+
+```sh
+Major  Minor  Build  Revision
+-----  -----  -----  --------
+10     0      20348  0   
+```
 
 ## Technique
 
