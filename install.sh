@@ -1,4 +1,2 @@
 #!/bin/bash
-python3 -m venv env
-source env/bin/activate
-pip install -r requirements.txt
+x86_64-w64-mingw32-gcc injector.c -o injector.exe
