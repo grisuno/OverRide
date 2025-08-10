@@ -30,6 +30,7 @@ The core steps of the injection are as follows:
 
 <img width="710" height="571" alt="image" src="https://github.com/user-attachments/assets/4f314715-edf6-48b9-bc3c-470368c5f000" />
 
+https://deepwiki.com/grisuno/OverRide
 
 ## Features
 
