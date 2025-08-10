@@ -1,5 +1,8 @@
 # OverRide - Process Overwriting Injector
 
+<img width="1328" height="1328" alt="image" src="https://github.com/user-attachments/assets/a7fa47e2-c441-4ee5-b7ca-4dfa397922a8" />
+
+
 ## Overview
 
 This project provides a proof-of-concept implementation of the "Process Overwriting" (a form of Process Hollowing) technique in plain C. The injector launches a legitimate target process in a suspended state and then overwrites its main executable module in memory with a custom payload. The main thread's context is then updated to point to the payload's entry point, and the process is resumed.
