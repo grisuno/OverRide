@@ -27,12 +27,19 @@ The core steps of the injection are as follows:
 5.  **Update Entry Point**: The entry point of the target process's main thread is modified to point to the entry point of the injected payload.
 6.  **Resume Process**: The suspended main thread is resumed, causing the payload's code to be executed instead of the original program.
 
+<img width="710" height="571" alt="image" src="https://github.com/user-attachments/assets/4f314715-edf6-48b9-bc3c-470368c5f000" />
+
+
 ## Features
 
 - Written in self-contained C with no external dependencies.
 - Supports both 32-bit and 64-bit payloads.
 - Automatically handles architecture differences between a 64-bit injector and a 32-bit target process (using Wow64 APIs).
 - Includes compatibility checks to prevent common injection failures.
+
+<img width="548" height="559" alt="image" src="https://github.com/user-attachments/assets/c0302101-ad7a-49da-9821-9867525a3cbc" />
+
+<img width="1205" height="449" alt="image" src="https://github.com/user-attachments/assets/eed90ffb-04f6-47f2-9181-4b973651bbea" />
 
 ## Usage
 
@@ -41,6 +48,8 @@ The injector is a command-line tool.
 ```sh
 injector.exe <path_to_payload> [path_to_target]
 ```
+
+<img width="1219" height="68" alt="image" src="https://github.com/user-attachments/assets/d6816efb-8206-4c14-b1e6-3db9d110ea96" />
 
 -   `<path_to_payload>`: (Required) The path to the executable file you want to inject.
 -   `[path_to_target]`: (Optional) The path to the legitimate executable that will be used as the host process. If not provided, it defaults to `C:\Windows\System32\calc.exe`.
