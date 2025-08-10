@@ -2,6 +2,7 @@
 
 <img width="1328" height="1328" alt="image" src="https://github.com/user-attachments/assets/a7fa47e2-c441-4ee5-b7ca-4dfa397922a8" />
 
+https://medium.com/@lazyown.redteam/the-override-chronicles-when-your-calculator-becomes-a-spy-and-why-thats-hilariously-terrifying-5a0a84e027ef
 
 ## Overview
 
