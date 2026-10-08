@@ -1,13 +1,13 @@
 # Subsystem: root
 
 ## app.py
-- Doc: Autor: Gris Iscomeback Correo electrónico: grisiscomeback[at]gmail[dot]com Fecha de creación...
 - Layer: utility
+- Doc: app.py  Autor: Gris Iscomeback Correo electrónico: grisiscomeback[at]gmail[dot]com Fecha de creación: xx/xx/xxxx Licenci
 - Language: py
 
 ## injector.c
-- Doc: get_nt_headers: Gets the NT Headers from a raw PE buffer.
 - Layer: infrastructure
+- Doc: ==================================================================== PE PARSING HELPERS (REPLACING PECONV) =============
 - Language: c
 - Symbols:
   - `get_nt_headers` (function, line 9) `IMAGE_NT_HEADERS* get_nt_headers(BYTE* buffer)`

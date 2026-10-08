@@ -6,4 +6,5 @@
 
 ## External Imports
 
-- `injector.c` -> stdio.h, windows.h
+- `injector.c` -> `stdio.h`
+- `injector.c` -> `windows.h`
